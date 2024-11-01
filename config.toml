@@ -10,8 +10,9 @@ enableRobotsTXT = true
 [deployment]
 [[deployment.targets]]
 name = "aws"
-URL = "s3://armswdev.tk?region=us-east-1"
-cloudFrontDistributionID = "E2VDQ2CYZATMO9"
+URL = "s3://arm-learning-paths-internal?region=us-west-2"
+cloudFrontDistributionID = "ENN4LK1IZUDIX"
+# stripIndexHTML = true
 
 
 
